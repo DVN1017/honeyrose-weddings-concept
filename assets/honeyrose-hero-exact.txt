@@ -1,0 +1,1 @@
+This file is a placeholder for the exact hero image. The deployed CSS will be switched to the existing approved hero asset in a follow-up commit.
