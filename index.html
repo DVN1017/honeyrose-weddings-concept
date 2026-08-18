@@ -18,7 +18,15 @@
   <button class="menu" aria-label="Open navigation">☰</button>
 </header>
 <main id="top">
-<section class="hero"><div class="hero-bg"></div><div class="hero-overlay"></div></section>
+<section class="hero">
+  <div class="hero-bg"></div><div class="hero-shade"></div>
+  <div class="hero-copy">
+    <p class="eyebrow">WEDDINGS AT HONEYROSE</p>
+    <h1>Your Montréal<br><em>love story begins here.</em></h1>
+    <p>Celebrate your day in a place where elegance meets exceptional service.</p>
+    <div class="actions"><a class="gold-btn" href="#spaces">Explore our spaces</a><a class="video-link" href="#experience"><span class="play">▶</span> Watch video</a></div>
+  </div>
+</section>
 <section class="spaces" id="spaces">
   <div class="spaces-intro"><p class="eyebrow gold">CHOOSE YOUR PERFECT SPACE</p><h2>Spaces that fit<br><em>your vision</em></h2><p>From intimate gatherings to grand celebrations, our elegant spaces adapt to your dream wedding.</p><a class="dark-pill" href="#spaces-grid">Compare spaces <span>◫</span></a></div>
   <div class="spaces-grid" id="spaces-grid">
@@ -31,24 +39,11 @@
 </section>
 <section class="process" id="experience">
   <div class="process-title"><p class="eyebrow gold">PLAN YOUR WEDDING WITH EASE</p><h2>Your wedding,<br><em>perfectly planned</em></h2></div>
-  <div class="steps">
-    <div class="step"><b>1</b><span class="step-icon">♧</span><strong>Choose your space</strong><p>Select the perfect venue that matches your style and guest count.</p></div><i>→</i>
-    <div class="step"><b>2</b><span class="step-icon">♨</span><strong>Discover our menus</strong><p>Work with our chefs to create a menu that will delight your guests.</p></div><i>→</i>
-    <div class="step"><b>3</b><span class="step-icon">♧</span><strong>Personalize every detail</strong><p>From décor to entertainment, we help you bring your vision to life.</p></div><i>→</i>
-    <div class="step"><b>4</b><span class="step-icon">✉</span><strong>Receive your proposal</strong><p>Our events team prepares a personalized proposal just for you.</p></div>
-  </div>
+  <div class="steps"><div class="step"><b>1</b><span class="step-icon">♧</span><strong>Choose your space</strong><p>Select the perfect venue that matches your style and guest count.</p></div><i>→</i><div class="step"><b>2</b><span class="step-icon">♨</span><strong>Discover our menus</strong><p>Work with our chefs to create a menu that will delight your guests.</p></div><i>→</i><div class="step"><b>3</b><span class="step-icon">♧</span><strong>Personalize every detail</strong><p>From décor to entertainment, we help you bring your vision to life.</p></div><i>→</i><div class="step"><b>4</b><span class="step-icon">✉</span><strong>Receive your proposal</strong><p>Our events team prepares a personalized proposal just for you.</p></div></div>
   <a class="dark-pill center" href="#proposal">Get a proposal in 60 seconds</a>
 </section>
-<section class="everything" id="stay">
-  <div class="everything-copy"><p class="eyebrow gold">EVERYTHING IN ONE PLACE</p><h2>We take care of everything</h2><div class="amenities">
-    <div><span>♨</span><strong>Exquisite cuisine</strong><p>Customized menus<br>by our chefs</p></div><div><span>✿</span><strong>Elegant flowers</strong><p>Stunning arrangements<br>by our florist</p></div><div><span>▱</span><strong>Luxurious suites</strong><p>Special rates for you<br>and your guests</p></div><div><span>◈</span><strong>Wellness &amp; relaxation</strong><p>Sauna, spa and<br>wellness area</p></div><div><span>Ⓟ</span><strong>Ample parking</strong><p>Free indoor parking<br>for your guests</p></div><div><span>♙</span><strong>Dedicated team</strong><p>Experienced wedding<br>specialists</p></div>
-  </div></div><div class="everything-photo"></div>
-</section>
-<section class="proposal" id="proposal">
-  <div class="proposal-copy"><p class="eyebrow gold">LET'S MAKE IT YOURS</p><h2>Let's start planning<br><em>your unforgettable day</em></h2><p>Our dedicated events team is here to answer your questions and help you plan every detail.</p></div>
-  <form onsubmit="event.preventDefault();document.querySelector('.success').classList.add('show')"><input required placeholder="Your name"><input type="email" required placeholder="Email address"><input type="date" aria-label="Wedding date"><select aria-label="Number of guests"><option>Number of guests</option><option>Up to 50</option><option>50–120</option><option>120–200</option><option>200–280+</option></select><textarea placeholder="Tell us about your wedding"></textarea><button class="gold-btn" type="submit">Request a proposal</button><p class="success">Prototype interaction only — no information is sent.</p></form>
-  <div class="proposal-photo"></div>
-</section>
+<section class="everything" id="stay"><div class="everything-copy"><p class="eyebrow gold">EVERYTHING IN ONE PLACE</p><h2>We take care of everything</h2><div class="amenities"><div><span>♨</span><strong>Exquisite cuisine</strong><p>Customized menus<br>by our chefs</p></div><div><span>✿</span><strong>Elegant flowers</strong><p>Stunning arrangements<br>by our florist</p></div><div><span>▱</span><strong>Luxurious suites</strong><p>Special rates for you<br>and your guests</p></div><div><span>◈</span><strong>Wellness &amp; relaxation</strong><p>Sauna, spa and<br>wellness area</p></div><div><span>Ⓟ</span><strong>Ample parking</strong><p>Free indoor parking<br>for your guests</p></div><div><span>♙</span><strong>Dedicated team</strong><p>Experienced wedding<br>specialists</p></div></div></div><div class="everything-photo"></div></section>
+<section class="proposal" id="proposal"><div class="proposal-copy"><p class="eyebrow gold">LET'S MAKE IT YOURS</p><h2>Let's start planning<br><em>your unforgettable day</em></h2><p>Our dedicated events team is here to answer your questions and help you plan every detail.</p></div><form onsubmit="event.preventDefault();document.querySelector('.success').classList.add('show')"><input required placeholder="Your name"><input type="email" required placeholder="Email address"><input type="date" aria-label="Wedding date"><select aria-label="Number of guests"><option>Number of guests</option><option>Up to 50</option><option>50–120</option><option>120–200</option><option>200–280+</option></select><textarea placeholder="Tell us about your wedding"></textarea><button class="gold-btn" type="submit">Request a proposal</button><p class="success">Prototype interaction only — no information is sent.</p></form><div class="proposal-photo"></div></section>
 <section class="trust"><div><b>◉</b><strong>AWARD-WINNING SERVICE</strong><span>Recognized for excellence in hospitality</span></div><div><b>♧</b><strong>FLEXIBLE PACKAGES</strong><span>Packages tailored to your needs</span></div><div><b>♙</b><strong>MEMORABLE EXPERIENCES</strong><span>Creating memories that last a lifetime</span></div><div><b>⌖</b><strong>LOCATED IN MONTRÉAL</strong><span>Easy access for you and your guests</span></div></section>
 </main>
 <footer><div class="brand dark"><span class="brand-mark">✾</span><span>HONEYROSE<small>HÔTEL MONTRÉAL</small></span></div><p>Independent digital experience concept · Montréal</p></footer>
