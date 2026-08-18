@@ -1,0 +1,1 @@
+Approved hero reference is available in the working session; do not replace it with a low-resolution remote image.
